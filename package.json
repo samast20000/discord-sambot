@@ -1,0 +1,26 @@
+{
+  "name": "sambot",
+  "version": "1.0.0",
+  "description": "A funny discord bot!",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "samast20000",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@sapphire/snowflake": "^3.2.1",
+    "axios": "^0.26.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^14.0.0-dev.1651493371-4ba0f56",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
