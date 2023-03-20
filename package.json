@@ -1,0 +1,30 @@
+{
+  "name": "sambot",
+  "version": "1.0.0",
+  "description": "A funny discord bot!",
+  "main": "client.ts",
+  "scripts": {
+    "dev": "nodemon client.ts",
+    "start": "ts-node client.ts"
+  },
+  "keywords": [],
+  "files": [
+    "client.ts"
+  ],
+  "author": "samast20000",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.15.0",
+    "@types/node": "^18.15.3",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.1.0",
+    "libsodium-wrappers": "^0.7.11",
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5",
+    "undici": "^5.21.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.5.0"
+  }
+}

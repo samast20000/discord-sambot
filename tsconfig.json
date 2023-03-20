@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "strict": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "removeComments": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "sourceMap": false,
+        "baseUrl": "./",
+        "paths": {
+            "tslib": [
+                "path/to/node_modules/tslib/tslib.d.ts"
+            ]
+        }
+    },
+    "files": [
+        "client.ts",
+        "utilities/discord.d.ts",
+        "commands/spinner.ts",
+        "events/interactionCreate.ts"
+    ],
+    "include": [
+        "./*.ts",
+        "utilities/discord.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
